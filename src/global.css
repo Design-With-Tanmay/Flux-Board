@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree", sans-serif;
+}
+
+@layer utilities {
+  .bg-indigo {
+    background: radial-gradient(
+      90% 50% at 50% 100%, var(--color-indigo-300) 0%, var(--color-indigo-500) 100% 
+    );
+  }
+
+}

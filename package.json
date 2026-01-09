@@ -37,5 +37,10 @@
     "undici": "*",
     "vite": "7.2.6",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "gsap": "^3.14.2",
+    "tailwindcss": "^4.1.18"
   }
 }
