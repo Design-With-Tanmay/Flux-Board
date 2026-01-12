@@ -1,12 +1,15 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import { Hero } from '~/sections/hero';
 import { Navbar } from '~/sections/navbar';
 
 export default component$(() => {
   return (
     <>
-      <section class="mx-auto relative lg:w-5xl">
+      {/* main section div */}
+      <section class="mx-auto relative lg:w-5xl w-full px-4 lg:px-0">
         <Navbar />
+        <Hero />
       </section>
     </>
   );
