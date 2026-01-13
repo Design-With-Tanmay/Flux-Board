@@ -32,7 +32,6 @@ export const Navbar = component$(() => {
             <span class="text-zinc-500">04 / </span>Testimonial
           </a>
         </div>
-
         <a
           href="#"
           class="px-3 py-1 bg-indigo text-xs font-semibold rounded-full transition-all hidden lg:block"

@@ -7,7 +7,7 @@ export default component$(() => {
   return (
     <>
       {/* main section div */}
-      <section class="mx-auto relative lg:w-5xl w-full px-4 lg:px-0">
+      <section class="mx-auto relative lg:w-5xl w-full lg:px-0">
         <Navbar />
         <Hero />
       </section>
