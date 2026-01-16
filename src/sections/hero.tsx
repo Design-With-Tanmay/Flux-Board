@@ -43,7 +43,7 @@ export const Hero = component$(() => {
           Create Your Workspace
         </a>
       </div>
-      <div class="mx-auto -mt-20 overflow-hidden px-4 lg:px-0">
+      <div class="mx-auto -mt-20 mb-10 overflow-hidden px-4 lg:px-0">
         <picture>
           <source srcset={heroMobile} media="(max-width: 639px)" />
           <img
